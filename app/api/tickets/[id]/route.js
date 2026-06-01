@@ -1,16 +1,12 @@
-import { NextResponse } from "next/server";
 import { createClient } from "@/utils/supabase/server";
+import { NextResponse } from "next/server";
 
-export const dynamic = "force-dynamic";
+export async function DELETE(_, { params }) {
+  const id = params.id;
 
-export async function GET(request, { params }) {
   const supabase = createClient();
 
-  const { data, error } = await supabase
-    .from("Tickets")
-    .select()
-    .eq("id", params.id)
-    .single();
+  const { error } = await supabase.from("Tickets").delete().eq("id", id);
 
-  return NextResponse.json({ data, error });
+  return NextResponse.json({ error });
 }

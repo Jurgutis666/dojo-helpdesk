@@ -1,6 +1,9 @@
 import { createClient } from "@/utils/supabase/server";
 import { notFound } from "next/navigation";
 
+//Components
+import DeleteButton from "./DeleteButton";
+
 export const dynamicParams = true;
 
 export async function generateMetadata({ params }) {
@@ -34,10 +37,18 @@ async function getTicket(id) {
 
 export default async function TicketDetails({ params }) {
   const ticket = await getTicket(params.id);
+
+  const supabase = createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
   return (
     <main>
       <nav>
         <h2>Ticket Details</h2>
+        <div className="ml-auto">
+          {user?.email === ticket.user_email && <DeleteButton id={ticket.id} />}
+        </div>
       </nav>
       <div className="card">
         <h3>{ticket.title}</h3>
