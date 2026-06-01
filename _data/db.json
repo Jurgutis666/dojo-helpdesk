@@ -1,0 +1,72 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Fix the footer links please",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "2",
+      "title": "Add in a new stylesheet",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "3",
+      "title": "Fix the footer links",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "high",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "id": "4",
+      "title": "blah blah blah",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "high",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "title": "new ticket",
+      "body": "fdsgdgdfsgdfs",
+      "priority": "high",
+      "user_email": "mario@netninja.dev",
+      "id": "tUFBnFhy6Og"
+    },
+    {
+      "title": "clen the mess",
+      "body": "dfgsdfgdfsgh",
+      "priority": "high",
+      "user_email": "mario@netninja.dev",
+      "id": "ZWhaUStmnTk"
+    },
+    {
+      "title": "testing",
+      "body": "blah blah blah",
+      "user_email": "luigi@netninja.dev",
+      "priority": "high",
+      "id": "AKx-foqW6wE"
+    },
+    {
+      "title": "my first ticket",
+      "body": "ticket test",
+      "priority": "medium",
+      "id": "jntIHuL8Tao"
+    },
+    {
+      "title": "test ticket",
+      "body": "ticket test1",
+      "priority": "medium",
+      "id": "lrXkAOIiXXM"
+    },
+    {
+      "title": "test",
+      "body": "test1",
+      "priority": "low",
+      "id": "0PYR2qH6e7M"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
